@@ -191,8 +191,8 @@ bindsym $mod+Control+l exec ~/.dotfiles/lock.sh
 #
 # You can use these variables anywhere in the i3 configuration file.
 
-set $base00 #181818
-set $base01 #282828
+set $base00 #3d424d  #updated
+set $base01 #273747  #updated
 set $base02 #383838
 set $base03 #585858
 set $base04 #b8b8b8
@@ -215,7 +215,7 @@ bar {
     colors {
         background $base00
         separator  $base01
-        statusline $base04
+        statusline #ffffff
 
         # State             Border  BG      Text
         focused_workspace   $base05 $base0D $base00
