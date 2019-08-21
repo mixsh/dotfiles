@@ -1,3 +1,5 @@
+# I3 GAPS
+
 sudo apt install libtool libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-cursor-dev libxcb-xinerama0-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev xutils-dev libxcb-shape0-dev autoconf
 
 cd /tmp
@@ -19,3 +21,12 @@ cd build
 make
 sudo make install
 
+
+# URXVT
+sudo apt install rxvt-unicode
+
+# COMPTON
+sudo apt install compton
+
+# HACK FONT
+sudo apt install fonts-hack-ttf
