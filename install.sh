@@ -21,6 +21,8 @@ cd build
 make
 sudo make install
 
+# I3STATUS
+sudo apt install i3status
 
 # URXVT
 sudo apt install rxvt-unicode
