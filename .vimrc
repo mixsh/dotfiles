@@ -26,4 +26,8 @@ set wildmenu
 
 command! MakeTags !ctags -R .
 
+" Quickly insert an empty new line without entering insert mode
+nnoremap <Leader>o o<Esc>
+nnoremap <Leader>O O<Esc>
 
+set relativenumber
