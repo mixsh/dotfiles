@@ -1,4 +1,4 @@
-# I3 GAPS
+# i3 gaps
 
 sudo apt install libtool libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-cursor-dev libxcb-xinerama0-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev xutils-dev libxcb-shape0-dev autoconf
 
@@ -21,14 +21,15 @@ cd build
 make
 sudo make install
 
-# I3STATUS
+
+# other packages
 sudo apt install i3status
-
-# URXVT
 sudo apt install rxvt-unicode
-
-# COMPTON
 sudo apt install compton
-
-# HACK FONT
 sudo apt install fonts-hack-ttf
+sudo apt install silversearcher-ag
+sudo apt install xautolock
+sudo apt install xss-lock
+sudo apt install ctags
+sudo apt install tmux
+sudo apt install autojump

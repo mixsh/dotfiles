@@ -11,9 +11,6 @@ set shiftwidth=4
 " ao pressionar tab, inserir 4 espaços
 set expandtab
 
-" adicionar 'régua'
-"set colorcolumn=80
-
 let &colorcolumn=join(range(81,999),",")
 
 " mudar cor da régua
@@ -23,3 +20,10 @@ let &colorcolumn="80,".join(range(81,999),",")
 
 " adicionar número de linhas
 set number 
+
+set path+=**
+set wildmenu
+
+command! MakeTags !ctags -R .
+
+
