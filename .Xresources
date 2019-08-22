@@ -15,27 +15,38 @@
 #define base0E #ba8baf
 #define base0F #a16946
 
-#define orange      #ff8f40
-#define lightorange #ffb454
-#define lightgrey   #b3b1ad
-#define blue        #59c2ff
+# Ayu colors
+#define common_accent   #E6B450
+#define common_bg       #0A0E14
+#define common_fg       #B3B1AD
+#define common_ui       #3D424D
 
-#define background_color #0a0e14
+#define syntax_tag      #39BAE6
+#define syntax_func     #FFB454
+#define syntax_entity   #59C2FF
+#define syntax_string   #C2D94C
+#define syntax_regexp   #95E6CB
+#define syntax_markup   #F07178
+#define syntax_keyword  #FF8F40
+#define syntax_special  #E6B673
+#define syntax_comment  #626A73
+#define syntax_constant #FFEE99
+#define syntax_operator #F29668
+#define syntax_error    #FF3333
 
+#define vcs_added       #91B362
+#define vcs_modified    #6994BF
+#define vcs_removed     #D96C75
 
-*foreground:   base05
-#ifdef background_opacity
-*background:   background_color
-#else
-*background:   background_color
-#endif
-*cursorColor:  lightgrey
+*foreground:   common_fg
+*background:   common_bg
+*cursorColor:  common_accent
 
 *color0:       base00
 *color1:       base08
 *color2:       base0B
-*color3:       orange
-*color4:       blue
+*color3:       syntax_keyword
+*color4:       syntax_entity
 *color5:       base0E
 *color6:       base0C
 *color7:       base05
@@ -43,8 +54,8 @@
 *color8:       base03
 *color9:       base08
 *color10:      base0B
-*color11:      orange
-*color12:      blue
+*color11:      syntax_keyword
+*color12:      syntax_entity
 *color13:      base0E
 *color14:      base0C
 *color15:      base07
@@ -65,11 +76,11 @@ URxvt.boldFont:     xft:Hack-Bold:pixelsize=14:weight=bold
 URxvt.italicFont:   xft:Hack-RegularOblique:pixelsize=14:slant=italic
 
 ! UI
-URxvt*borderless: true
+URxvt*borderless:     true
 URxvt.internalBorder: 10
-URxvt*scrollBar: false
-URxvt*saveLines: 20000
-!URxvt*dynamicColors: true
-!URxvt*termName: rxvt-unicode
-URxvt*fading: 10
+URxvt*scrollBar:      false
+URxvt*saveLines:      20000
+!URxvt*dynamicColors:  true
+!URxvt*termName:       rxvt-unicode
+URxvt*fading:         10
 
