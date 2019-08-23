@@ -6,6 +6,7 @@ mkdir -p ~/.config/compton
 cd ~/ && rm -f ~/.vimrc && ln -s ~/.dotfiles/.vimrc .vimrc
 cd ~/ && rm -f .Xresources && ln -s ~/.dotfiles/.Xresources .Xresources
 cd ~/ && rm -f .zshrc && ln -s ~/.dotfiles/.zshrc .zshrc
+cd ~/ && rm -f .ctags && ln -s ~/.dotfiles/.ctags .ctags
 
 cd ~/.config && rm -f compton.conf && ln -s ~/.dotfiles/.config/compton.conf compton.conf
 cd ~/.config/i3 && rm -f config && ln -s ~/.dotfiles/.config/i3/config config
