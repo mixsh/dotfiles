@@ -207,27 +207,29 @@ set $base0E #ba8baf
 set $base0F #a16946
 
 # Ayu colors
-set $common_accent   #E6B450
-set $common_bg       #0A0E14
-set $common_fg       #B3B1AD
-set $common_ui       #3D424D
+set $common_accent   #FFCC66
+set $common_bg       #1F2430
+set $common_fg       #CBCCC6
+set $common_ui       #707ABC
 
-set $syntax_tag      #39BAE6
-set $syntax_func     #FFB454
-set $syntax_entity   #59C2FF
-set $syntax_string   #C2D94C
+set $syntax_tag      #5CCFE6
+set $syntax_func     #FFD580
+set $syntax_entity   #73D0FF
+set $syntax_string   #BAE67E
 set $syntax_regexp   #95E6CB
-set $syntax_markup   #F07178
-set $syntax_keyword  #FF8F40
-set $syntax_special  #E6B673
-set $syntax_comment  #626A73
-set $syntax_constant #FFEE99
-set $syntax_operator #F29668
+set $syntax_markup   #F28779
+set $syntax_keyword  #FFA759
+set $syntax_special  #FFE6B3
+set $syntax_comment  #5C6773
+set $syntax_constant #D4BFFF
+set $syntax_operator #F29E74
 set $syntax_error    #FF3333
 
-set $vcs_added       #91B362
-set $vcs_modified    #6994BF
-set $vcs_removed     #D96C75
+set $ui_panel_border  #101521
+
+set $vcs_added       #A6CC70
+set $vcs_modified    #77A8D9
+set $vcs_removed     #F27983
 
 # Basic bar configuration using the Base16 variables.
 bar {
@@ -248,12 +250,12 @@ bar {
 }
 
 # Basic color configuration using the Base16 variables for windows and borders.
-# Property Name         Border         BG             Text       Indicator Child Border
-client.focused          $common_accent $common_accent $common_ui $base0D $base0C
-client.focused_inactive $common_ui     $common_bg     #ffffff    $base03 $base01
-client.unfocused        $common_ui     $common_bg     #ffffff    $base03 $base01
-client.urgent           $base08 $base08 $blue_grey $base08 $base08
-client.placeholder      $blue_grey $blue_grey $base05 $blue_grey $blue_grey
+# Property Name         Border         BG             Text       Indicator  Child Border
+client.focused          $common_accent $common_accent #000000    $base0D    $ui_panel_border
+client.focused_inactive $common_ui     $common_bg     #ffffff    $base03    $ui_panel_border
+client.unfocused        $common_ui     $common_bg     #ffffff    $base03    $ui_panel_border
+client.urgent           $base08        $base08        $blue_grey $base08    $base08
+client.placeholder      $blue_grey     $blue_grey     $base05    $blue_grey $blue_grey
 client.background       $common_bg
 
 

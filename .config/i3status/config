@@ -10,8 +10,8 @@ general {
         colors = true
         interval = 5
 
-        color_good = "#c2d94c"
-        color_bad = "#ff3333"
+        color_good = "#A6CC70"
+        color_bad = "#F27983"
 }
 
 # order += "ipv6"
