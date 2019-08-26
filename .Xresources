@@ -15,28 +15,28 @@
 #define base0E #ba8baf
 #define base0F #a16946
 
-# Ayu colors
-#define common_accent   #E6B450
-#define common_bg       #0A0E14
-#define common_fg       #B3B1AD
-#define common_ui       #3D424D
+## Ayu colors
+#define common_accent   #FFCC66
+#define common_bg       #1F2430
+#define common_fg       #CBCCC6
+#define common_ui       #707ABC
 
-#define syntax_tag      #39BAE6
-#define syntax_func     #FFB454
-#define syntax_entity   #59C2FF
-#define syntax_string   #C2D94C
+#define syntax_tag      #5CCFE6
+#define syntax_func     #FFD580
+#define syntax_entity   #73D0FF
+#define syntax_string   #BAE67E
 #define syntax_regexp   #95E6CB
-#define syntax_markup   #F07178
-#define syntax_keyword  #FF8F40
-#define syntax_special  #E6B673
-#define syntax_comment  #626A73
-#define syntax_constant #FFEE99
-#define syntax_operator #F29668
+#define syntax_markup   #F28779
+#define syntax_keyword  #FFA759
+#define syntax_special  #FFE6B3
+#define syntax_comment  #5C6773
+#define syntax_constant #D4BFFF
+#define syntax_operator #F29E74
 #define syntax_error    #FF3333
 
-#define vcs_added       #91B362
-#define vcs_modified    #6994BF
-#define vcs_removed     #D96C75
+#define vcs_added       #A6CC70
+#define vcs_modified    #77A8D9
+#define vcs_removed     #F27983
 
 *foreground:   common_fg
 *background:   common_bg
