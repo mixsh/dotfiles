@@ -53,7 +53,7 @@
 
 *color8:       base03
 *color9:       base08
-*color10:      base0B
+*color10:      syntax_string
 *color11:      syntax_keyword
 *color12:      syntax_entity
 *color13:      base0E

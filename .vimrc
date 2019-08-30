@@ -14,7 +14,7 @@ set expandtab
 let &colorcolumn=join(range(81,999),",")
 
 " mudar cor da régua
-highlight ColorColumn ctermbg=235 guibg=#2c2d27
+highlight ColorColumn ctermbg=235 guibg=#CBCCC6
 
 let &colorcolumn="80,".join(range(81,999),",")
 

@@ -112,15 +112,15 @@ bindsym $mod+a focus parent
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1:Terminals"
-set $ws2 "2:Code"
-set $ws3 "3:Browser"
+set $ws1 "1:Code"
+set $ws2 "2:Browser"
+set $ws3 "3:VM"
 set $ws4 "4"
 set $ws5 "5"
 set $ws6 "6"
 set $ws7 "7"
 set $ws8 "8"
-set $ws9 "9"
+set $ws9 "9:Social"
 set $ws10 "10:Music"
 
 # switch to workspace
@@ -148,14 +148,15 @@ bindsym $mod+Shift+9 move container to workspace $ws9
 bindsym $mod+Shift+0 move container to workspace $ws10
 
 # Start brave and vscode in the appropriate workspaces
-assign [class="brave-browser"] $ws3
-assign [class="code"] $ws2
+assign [class="Brave-browser"] $ws2
+assign [class="Code"] $ws1
 
 # Put workspaces in the appropriate monitors
+workspace $ws3  output eDP-1
+workspace $ws9  output eDP-1
 workspace $ws10 output eDP-1
-workspace $ws3  output HDMI-1
-workspace $ws2  output HDMI-1 
-workspace $ws1  output eDP-1
+workspace $ws1  output HDMI-1 HDMI-2
+workspace $ws2  output HDMI-1 HDMI-2
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
