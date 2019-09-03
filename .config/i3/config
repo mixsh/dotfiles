@@ -192,10 +192,6 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-
-# Auto start screenlock
-exec xautolock -time 10 -locker ~/.dotfiles/lock.sh
-
 # Shortcut for screenlock
 bindsym $mod+Control+l exec ~/.dotfiles/lock.sh
 
