@@ -2,23 +2,23 @@ syntax on
 
 filetype plugin indent on
 
-" tamanho dos tabs em espaços
+" Tab size 
 set tabstop=4
 
-" largura utilizada ao pressionar tab
+" Width when pressing tab
 set shiftwidth=4
 
-" ao pressionar tab, inserir 4 espaços
+" Insert 4 space when pressing tab
 set expandtab
 
 let &colorcolumn=join(range(81,999),",")
 
-" mudar cor da régua
+" Change ruler color
 highlight ColorColumn ctermbg=235 guibg=#CBCCC6
 
 let &colorcolumn="80,".join(range(81,999),",")
 
-" adicionar número de linhas
+" Add line numbers
 set number 
 
 set path+=**
