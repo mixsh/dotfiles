@@ -89,6 +89,9 @@ bindsym $mod+space focus mode_toggle
 # focus the parent container
 bindsym $mod+a focus parent
 
+# screenshot
+bindsym $mod+Print exec scrot $HOME/Pictures/Screenshots/`date +%Y-%m-%d_%H:%M:%S`.png
+
 # focus the child container
 #bindsym $mod+d focus child
 
@@ -176,7 +179,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # Shortcut for screenlock
-bindsym $mod+Control+l exec ~/.dotfiles/lock.sh
+bindsym $mod+Control+l exec i3lock -c 000000
 
 # Colors
 set $blue_grey #3d424d
