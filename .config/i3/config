@@ -99,7 +99,7 @@ bindsym $mod+Print exec scrot $HOME/Pictures/Screenshots/`date +%Y-%m-%d_%H:%M:%
 # We use variables to avoid repeating the names in multiple places.
 set $ws1 "1:Code"
 set $ws2 "2:Browser"
-set $ws3 "3:VM"
+set $ws3 "3"
 set $ws4 "4"
 set $ws5 "5"
 set $ws6 "6"
@@ -137,7 +137,6 @@ assign [class="Brave-browser"] $ws2
 assign [class="Code"] $ws1
 
 # Put workspaces in the appropriate monitors
-workspace $ws3  output eDP-1
 workspace $ws8  output eDP-1
 workspace $ws9  output eDP-1
 workspace $ws10 output eDP-1
