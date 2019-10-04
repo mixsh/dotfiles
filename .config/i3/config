@@ -267,5 +267,8 @@ for_window [class="^.*"] border pixel 0
 gaps inner 10
 gaps outer 10
 
+# Float citrix window
+for_window [class="Wfica_Seamless"] floating enable
+
 # Disable mouse focus
 focus_follows_mouse no
