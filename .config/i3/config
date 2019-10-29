@@ -132,8 +132,7 @@ bindsym $mod+Shift+8 move container to workspace $ws8
 bindsym $mod+Shift+9 move container to workspace $ws9
 bindsym $mod+Shift+0 move container to workspace $ws10
 
-# Start brave and vscode in the appropriate workspaces
-assign [class="Brave-browser"] $ws2
+# Start vscode to the appropriate workspaces
 assign [class="Code"] $ws1
 
 # Put workspaces in the appropriate monitors
