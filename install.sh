@@ -24,6 +24,7 @@ sudo make install
 
 # other packages
 sudo apt install i3status
+sudo apt install i3lock
 sudo apt install rxvt-unicode
 sudo apt install compton
 sudo apt install fonts-hack-ttf
@@ -33,3 +34,5 @@ sudo apt install xss-lock
 sudo apt install ctags
 sudo apt install tmux
 sudo apt install autojump
+sudo apt install feh
+sudo apt install rofi
