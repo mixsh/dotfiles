@@ -12,6 +12,9 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
 
+# Polybar
+exec_always --no-startup-id ~/.dotfiles/.config/polybar/launch.sh &
+
 # Load Xresources
 exec --no-startup-id xrdb ~/.Xresources
 
@@ -223,22 +226,22 @@ set $vcs_modified    #77A8D9
 set $vcs_removed     #F27983
 
 # Basic bar configuration using the Base16 variables.
-bar {
-    status_command i3status
-
-    colors {
-        background $common_bg
-        separator  $common_ui
-        statusline #ffffff
-
-        # State             Border         BG             Text
-        focused_workspace   $common_accent $common_accent $common_ui
-        active_workspace    $common_fg     $common_fg     $common_ui
-        #inactive_workspace  $base03 $base01 $base05
-        #urgent_workspace    $common_accent $common_accent #ffffff
-        #binding_mode        $blue_grey $base0A $blue_grey
-    }
-}
+#bar {
+#    status_command i3status
+#
+#    colors {
+#        background $common_bg
+#        separator  $common_ui
+#        statusline #ffffff
+#
+#        # State             Border         BG             Text
+#        focused_workspace   $common_accent $common_accent $common_ui
+#        active_workspace    $common_fg     $common_fg     $common_ui
+#        #inactive_workspace  $base03 $base01 $base05
+#        #urgent_workspace    $common_accent $common_accent #ffffff
+#        #binding_mode        $blue_grey $base0A $blue_grey
+#    }
+#}
 
 # Basic color configuration using the Base16 variables for windows and borders.
 # Property Name         Border         BG             Text       Indicator  Child Border
@@ -267,8 +270,8 @@ bindsym XF86AudioPrev  exec playerctl previous
 # Gaps
 for_window [class="^.*"] border pixel 0
 
-gaps inner 10
-gaps outer 10
+gaps inner 5
+gaps outer 0
 
 # Float citrix window
 for_window [class="Wfica_Seamless"] floating enable
