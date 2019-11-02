@@ -1,73 +1,85 @@
-#define base00 #181818
-#define base01 #282828
-#define base02 #383838
-#define base03 #585858
-#define base04 #b8b8b8
-#define base05 #d8d8d8
-#define base06 #e8e8e8
-#define base07 #f8f8f8
-#define base08 #ab4642
-#define base09 #dc9656
-#define base0A #f7ca88
-#define base0B #a1b56c
-#define base0C #86c1b9
-#define base0D #7cafc2
-#define base0E #ba8baf
-#define base0F #a16946
+! +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+! title      Nord XResources                                    +
+! project    nord-xresources                                    +
+! version    0.1.0                                              +
+! repository https://github.com/arcticicestudio/nord-xresources +
+! author     Arctic Ice Studio                                  +
+! email      development@arcticicestudio.com                    +
+! copyright  Copyright (C) 2016                                 + 
+! edit       okubax                                             +
+! +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-## Ayu colors
-#define common_accent   #FFCC66
-#define common_bg       #1F2430
-#define common_fg       #CBCCC6
-#define common_ui       #707ABC
+emacs*foreground:   #D8DEE9
+emacs*background:   #2E3440
+URxvt*foreground:   #D8DEE9
+XTerm*foreground:   #D8DEE9
+UXTerm*foreground:  #D8DEE9
+URxvt*background:   [100]#2E3440
+XTerm*background:   #2E3440
+UXTerm*background:  #2E3440
+URxvt*cursorColor:  #D8DEE9
+XTerm*cursorColor:  #D8DEE9
+UXTerm*cursorColor: #D8DEE9
+URxvt*borderColor:  [100]#2E3440
 
-#define syntax_tag      #5CCFE6
-#define syntax_func     #FFD580
-#define syntax_entity   #73D0FF
-#define syntax_string   #BAE67E
-#define syntax_regexp   #95E6CB
-#define syntax_markup   #F28779
-#define syntax_keyword  #FFA759
-#define syntax_special  #FFE6B3
-#define syntax_comment  #5C6773
-#define syntax_constant #D4BFFF
-#define syntax_operator #F29E74
-#define syntax_error    #FF3333
 
-#define vcs_added       #A6CC70
-#define vcs_modified    #77A8D9
-#define vcs_removed     #F27983
+#define nord0 #2E3440
+#define nord1 #3B4252
+#define nord2 #434C5E
+#define nord3 #4C566A
+#define nord4 #D8DEE9
+#define nord5 #E5E9F0
+#define nord6 #ECEFF4
+#define nord7 #8FBCBB
+#define nord8 #88C0D0
+#define nord9 #81A1C1
+#define nord10 #5E81AC
+#define nord11 #BF616A
+#define nord12 #D08770
+#define nord13 #EBCB8B
+#define nord14 #A3BE8C
+#define nord15 #B48EAD
 
-*foreground:   common_fg
-*background:   common_bg
-*cursorColor:  common_accent
+*.foreground:   nord4
+*.background:   nord0
+*.cursorColor:  nord4
+*fading: 35
+*fadeColor: nord3
 
-*color0:       base00
-*color1:       base08
-*color2:       base0B
-*color3:       syntax_keyword
-*color4:       syntax_entity
-*color5:       base0E
-*color6:       base0C
-*color7:       base05
+*.color0: nord1
+*color0: nord1
+*.color1: nord11
+*color1: nord11
+*.color2: nord14
+*color2: nord14
+*.color3: nord13
+*color3: nord13
+*.color4: nord9
+*color4: nord9
+*.color5: nord15
+*color5: nord15
+*.color6: nord8
+*color6: nord8
+*.color7: nord5
+*color7: nord5
+*.color8: nord3
+*color8: nord3
+*.color9: nord11
+*color9: nord11
+*.color10: nord14
+*color10: nord14
+*.color11: nord13
+*color11: nord13
+*.color12: nord9
+*color12: nord9
+*.color13: nord15
+*color13: nord15
+*.color14: nord7
+*color14: nord7
+*.color15: nord6
+*color15: nord6
 
-*color8:       base03
-*color9:       base08
-*color10:      syntax_string
-*color11:      syntax_keyword
-*color12:      syntax_entity
-*color13:      base0E
-*color14:      base0C
-*color15:      base07
-
-! Note: colors beyond 15 might not be loaded (e.g., xterm, urxvt),
-! use 'shell' template to set these if necessary
-*color16:      base09
-*color17:      base0F
-*color18:      base01
-*color19:      base02
-*color20:      base04
-*color21:      base06
+!!!! Customization
 
 ! Fonts
 !URxvt.xftAntialias: true

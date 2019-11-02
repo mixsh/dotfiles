@@ -3,11 +3,11 @@
  */
 
 * {
-  accentcolor: #ffcc66;
-  backgroundcolor: #1f2430f3;
+  accentcolor: #A3BE8C;
+  backgroundcolor: #2E3440f3;
   separatorcolor: transparent;
-  foregroundcolor: #bfbab0;
-  selectioncolor: #fafafa;
+  foregroundcolor: #ECEFF4;
+  selectioncolor: #A3BE8C;
   
   background-color: transparent;
   text-color: @foregroundcolor;
