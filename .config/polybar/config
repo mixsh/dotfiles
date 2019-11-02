@@ -17,24 +17,22 @@
 ;==========================================================
 
 [colors]
-;background = ${xrdb:color0:#222}
-background = #222
+background = #1F2430
 background-alt = #444
-;foreground = ${xrdb:color7:#222}
-foreground = #dfdfdf
+foreground = #CBCCC6
 foreground-alt = #555
-primary = #ffb52a
-secondary = #e60053
-alert = #bd2c40
+primary = #FFCC66
+secondary = #707A8C
+alert = #FF3333
 
 [bar/mixshbar]
 bottom = true
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
-height = 27
+height = 30
 ;offset-x = 1%
 ;offset-y = 1%
-radius = 6.0
+;radius = 6.0
 fixed-center = false
 
 background = ${colors.background}
@@ -52,7 +50,8 @@ padding-right = 2
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = fixed:pixelsize=10;1
+;font-0 = fixed:pixelsize=10;1
+font-0 = Hack:pixelsize=10;0
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = siji:pixelsize=10;1
 
