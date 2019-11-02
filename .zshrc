@@ -99,4 +99,4 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Enable autojump
-. /usr/local/share/autojump/autojump.zsh
+. /usr/share/autojump/autojump.sh
