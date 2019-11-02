@@ -14,7 +14,7 @@
 }
 
 #window {
-  font: "Hack 12";
+  font: "Source Sans Pro 12";
   location: 0;
   background-color: @backgroundcolor;
   border-color: @accentcolor;
