@@ -36,6 +36,7 @@ sudo apt install tmux
 sudo apt install autojump
 sudo apt install feh
 sudo apt install rofi
+sudo apt install xbacklight
 
 sudo apt install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
