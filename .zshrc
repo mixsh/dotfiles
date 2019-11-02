@@ -99,9 +99,4 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Enable autojump
-if [[ "$OSTYPE" == "linux-gnu" ]]; then
-    . /usr/share/autojump/autojump.sh
-elif [[ "$OSTYPE" == "darwin"* ]]; then
-    . /usr/local/share/autojump/autojump.zsh
-else
-fi
+. /usr/share/autojump/autojump.sh
