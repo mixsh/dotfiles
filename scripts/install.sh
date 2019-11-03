@@ -37,6 +37,7 @@ sudo apt install autojump
 sudo apt install feh
 sudo apt install rofi
 sudo apt install xbacklight
+sudo apt install scrot
 
 # zsh + oh-my-zsh
 sudo apt install zsh
