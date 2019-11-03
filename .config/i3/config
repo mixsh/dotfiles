@@ -6,7 +6,7 @@ font hack:monospace 10
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend.
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+exec --no-startup-id xss-lock --transfer-sleep-lock -- ~/.dotfiles/scripts/lock.sh --nofork
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
@@ -136,14 +136,14 @@ bindsym $mod+Shift+9 move container to workspace $ws9
 bindsym $mod+Shift+0 move container to workspace $ws10
 
 # Start vscode to the appropriate workspaces
-assign [class="Code"] $ws1
+# assign [class="Code"] $ws1
 
 # Put workspaces in the appropriate monitors
-workspace $ws8  output eDP-1
-workspace $ws9  output eDP-1
-workspace $ws10 output eDP-1
-workspace $ws1  output HDMI-1 HDMI-2
-workspace $ws2  output HDMI-1 HDMI-2
+#workspace $ws8  output eDP-1
+#workspace $ws9  output eDP-1
+#workspace $ws10 output eDP-1
+#workspace $ws1  output HDMI-1 HDMI-2
+#workspace $ws2  output HDMI-1 HDMI-2
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -180,7 +180,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # Shortcut for screenlock
-bindsym $mod+Control+l exec i3lock -c 000000
+bindsym $mod+Control+l exec ~/.dotfiles/scripts/lock.sh
 
 # Colors
 set $blue_grey #3d424d
