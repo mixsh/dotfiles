@@ -1,29 +1,11 @@
-;==========================================================
-;
-;
-;   ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗
-;   ██╔══██╗██╔═══██╗██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
-;   ██████╔╝██║   ██║██║   ╚████╔╝ ██████╔╝███████║██████╔╝
-;   ██╔═══╝ ██║   ██║██║    ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
-;   ██║     ╚██████╔╝███████╗██║   ██████╔╝██║  ██║██║  ██║
-;   ╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
-;
-;
-;   To learn more about how to configure Polybar
-;   go to https://github.com/polybar/polybar
-;
-;   The README contains a lot of information
-;
-;==========================================================
-
 [colors]
-background = #1F2430
+background = #2E3440
 background-alt = #444
-foreground = #CBCCC6
+foreground = #ECEFF4
 foreground-alt = #555
-primary = #FFCC66
+primary = #A3BE8C
 secondary = #707A8C
-alert = #FF3333
+alert = #5294E2
 
 [bar/mixshbar]
 bottom = true
@@ -41,7 +23,7 @@ foreground = ${colors.foreground}
 line-size = 3
 line-color = #f00
 
-border-size = 9
+border-size = 10
 border-top-size = 0
 border-color = #00000000
 

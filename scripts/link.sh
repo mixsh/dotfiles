@@ -16,5 +16,5 @@ cd ~/.config/i3status && rm -f config && ln -s ~/.dotfiles/.config/i3status/conf
 cd ~/.config/surfraw && rm -f conf && ln -s ~/.dotfiles/.config/surfraw/conf conf
 cd ~/.config/polybar && rm -f config && ln -s ~/.dotfiles/.config/polybar/config config
 
-cd ~/.config/rofi/themes && rm -f mixsh.config && rm -f mixsh.rasi && ln -s ~/.dotfiles/.config/rofi/themes/mixsh.config mixsh.config && ln -s ~/.dotfiles/.config/rofi/themes/mixsh.rasi mixsh.rasi
+cd ~/.config/rofi/themes && rm -f mixsh.rasi && ln -s ~/.dotfiles/.config/rofi/themes/mixsh.rasi mixsh.rasi
 

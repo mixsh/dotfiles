@@ -11,13 +11,6 @@ set shiftwidth=4
 " Insert 4 space when pressing tab
 set expandtab
 
-let &colorcolumn=join(range(81,999),",")
-
-" Change ruler color
-highlight ColorColumn ctermbg=235 guibg=#CBCCC6
-
-let &colorcolumn="80,".join(range(81,999),",")
-
 " Add line numbers
 set number 
 
