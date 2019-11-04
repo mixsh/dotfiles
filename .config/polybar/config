@@ -9,7 +9,7 @@ alert = #5294E2
 
 [bar/mixshbar]
 bottom = true
-;monitor = ${env:MONITOR:HDMI-1}
+monitor = ${env:MONITOR:}
 width = 100%
 height = 30
 ;offset-x = 1%

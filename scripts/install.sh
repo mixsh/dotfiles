@@ -38,6 +38,7 @@ sudo apt install feh
 sudo apt install rofi
 sudo apt install xbacklight
 sudo apt install scrot
+sudo apt install arc-theme
 
 # zsh + oh-my-zsh
 sudo apt install zsh
