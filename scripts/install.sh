@@ -39,6 +39,8 @@ sudo apt install rofi
 sudo apt install xbacklight
 sudo apt install scrot
 sudo apt install arc-theme
+sudo apt install xclip
+sudo apt install mpd
 
 # zsh + oh-my-zsh
 sudo apt install zsh
