@@ -44,7 +44,7 @@ font-2 = Source Sans Pro:pixelsize=12;1
 
 modules-left = i3
 modules-center = mpd
-modules-right = filesystem xbacklight alsa pulseaudio xkeyboard memory cpu battery temperature date powermenu
+modules-right = alsa pulseaudio filesystem xbacklight xkeyboard memory cpu battery temperature date powermenu
 
 tray-position = right
 tray-padding = 2
