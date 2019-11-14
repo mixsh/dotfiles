@@ -83,9 +83,9 @@ URxvt*borderColor:  [100]#2E3440
 
 ! Fonts
 !URxvt.xftAntialias: true
-URxvt.font:         xft:Hack-Regular:pixelsize=14
-URxvt.boldFont:     xft:Hack-Bold:pixelsize=14:weight=bold
-URxvt.italicFont:   xft:Hack-RegularOblique:pixelsize=14:slant=italic
+URxvt.font:         xft:Hack-Regular:pixelsize=12
+URxvt.boldFont:     xft:Hack-Bold:pixelsize=12:weight=bold
+URxvt.italicFont:   xft:Hack-RegularOblique:pixelsize=12:slant=italic
 
 ! UI
 URxvt*borderless:     true
