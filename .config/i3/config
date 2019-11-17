@@ -253,7 +253,7 @@ client.placeholder      $blue_grey     $blue_grey     $base05    $blue_grey $blu
 client.background       $common_bg
 
 
-# Sreen brightness controls
+# Screen brightness controls
 bindsym XF86MonBrightnessUp   exec ~/.dotfiles/scripts/macbook-lighter-screen.sh --inc 180
 bindsym XF86MonBrightnessDown exec ~/.dotfiles/scripts/macbook-lighter-screen.sh --dec 180
 
