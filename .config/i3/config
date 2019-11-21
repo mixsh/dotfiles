@@ -22,7 +22,7 @@ exec --no-startup-id xrdb ~/.Xresources
 exec --no-startup-id compton -b
 
 # Wallpaper
-exec --no-startup-id feh --bg-fill ~/.dotfiles/wp.png
+exec --no-startup-id feh --bg-fill ~/.dotfiles/wp.jpg
 
 # Use pactl to adjust volume in PulseAudio.
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10%
