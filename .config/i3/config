@@ -275,7 +275,7 @@ gaps outer 0
 
 # Custom floating windows
 # for_window [class="Wfica_Seamless"] floating enable
-for_window [class="microsoft teams - preview"] floating enable
+for_window [name="Microsoft Teams Notification"] floating enable
 
 
 # Disable mouse focus
