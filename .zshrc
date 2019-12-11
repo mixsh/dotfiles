@@ -98,5 +98,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+export ASPNETCORE_ENVIRONMENT=Development
+
 # Enable autojump
 . /usr/share/autojump/autojump.zsh
