@@ -273,8 +273,9 @@ for_window [class="^.*"] border pixel 0
 gaps inner 10
 gaps outer 0
 
-# Float citrix window
+# Custom floating windows
 # for_window [class="Wfica_Seamless"] floating enable
+for_window [title="(?i)microsoft teams notification" class="(?i)microsoft teams - preview"] floating enable
 
 # Disable mouse focus
 focus_follows_mouse no
