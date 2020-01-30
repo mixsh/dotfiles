@@ -21,33 +21,39 @@ cd build
 make
 sudo make install
 
-
 # other packages
-sudo apt install i3status
-sudo apt install i3lock
-sudo apt install rxvt-unicode
-sudo apt install compton
-sudo apt install fonts-hack-ttf
-sudo apt install silversearcher-ag
-sudo apt install xautolock
-sudo apt install xss-lock
-sudo apt install ctags
-sudo apt install tmux
-sudo apt install autojump
-sudo apt install feh
-sudo apt install rofi
-sudo apt install xbacklight
-sudo apt install scrot
-sudo apt install arc-theme
-sudo apt install xclip
-sudo apt install mpd
-
-# zsh + oh-my-zsh
-sudo apt install zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sudo apt install -y i3status
+sudo apt install -y i3lock
+sudo apt install -y rxvt-unicode
+sudo apt install -y compton
+sudo apt install -y fonts-hack-ttf
+sudo apt install -y silversearcher-ag
+sudo apt install -y xautolock
+sudo apt install -y xss-lock
+sudo apt install -y ctags
+sudo apt install -y tmux
+sudo apt install -y autojump
+sudo apt install -y feh
+sudo apt install -y rofi
+sudo apt install -y xbacklight
+sudo apt install -y scrot
+sudo apt install -y arc-theme
+sudo apt install -y xclip
+sudo apt install -y mpd
+sudo apt install -y htop
+sudo apt install -y lightdm-gtk-greeter lightdm-gtk-greeter-settings
+sudo apt install -y lightdm
 
 # polybar
 sudo apt-get install cmake cmake-data libcairo2-dev libxcb1-dev libxcb-ewmh-dev libxcb-icccm4-dev libxcb-image0-dev libxcb-randr0-dev libxcb-util0-dev libxcb-xkb-dev pkg-config python-xcbgen xcb-proto libxcb-xrm-dev libasound2-dev libmpdclient-dev libiw-dev libcurl4-openssl-dev libpulse-dev libxcb-composite0-dev xcb libxcb-ewmh2 -y && git clone https://github.com/jaagr/polybar.git && cd polybar && sudo ./build.sh
 
 # visual theme config tools
-sudo apt-get install lxappearance gtk-chtheme qt4-qtconfig
+sudo apt-get install -y lxappearance gtk-chtheme qt4-qtconfig
+
+# zsh + oh-my-zsh
+sudo apt install -y zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# Source Sans Pro
+mkdir ~/.fonts && cd ~/.fonts && git clone https://github.com/adobe-fonts/source-sans-pro.git --depth=1
+
