@@ -254,8 +254,8 @@ client.background       $common_bg
 
 
 # Sreen brightness controls
-bindsym XF86MonBrightnessUp   exec xbacklight -inc 20 # increase screen brightness
-bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightness
+bindsym XF86MonBrightnessUp   exec brightnessctl -d intel_backlight s +10% # increase screen brightness
+bindsym XF86MonBrightnessDown exec  brightnessctl -d intel_backlight s 10%- # decrease screen brightness
 
 # Keyboard backlight
 bindsym XF86KbdBrightnessUp   exec light -k -A 10
