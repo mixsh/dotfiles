@@ -254,8 +254,8 @@ client.background       $common_bg
 
 
 # Sreen brightness controls
-bindsym XF86MonBrightnessUp   exec brightnessctl -d intel_backlight s +10% # increase screen brightness
-bindsym XF86MonBrightnessDown exec  brightnessctl -d intel_backlight s 10%- # decrease screen brightness
+bindsym XF86MonBrightnessUp   exec brightnessctl -d intel_backlight s +5% # increase screen brightness
+bindsym XF86MonBrightnessDown exec brightnessctl -d intel_backlight s 5%- # decrease screen brightness
 
 # Keyboard backlight
 bindsym XF86KbdBrightnessUp   exec light -k -A 10
@@ -274,7 +274,12 @@ gaps inner 10
 gaps outer 0
 
 # Custom floating windows
-# for_window [class="Wfica_Seamless"] floating enable
+for_window [class="Wfica_Seamless"] floating enable
+for_window [class="(?i)wfica"] floating enable
+for_window [class="(?i)windows logon"] floating enable
+for_window [class="(?i)remote desktop connection"] floating enable
+for_window [class="(?i)remote desktop connection"] floating enable
+for_window [class="(?i)windows security"] floating enable
 for_window [title="(?i)microsoft teams notification" class="(?i)microsoft teams - preview"] floating enable
 
 # Disable mouse focus
