@@ -99,8 +99,6 @@ export ASPNETCORE_ENVIRONMENT=Development
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export ASPNETCORE_ENVIRONMENT=Development
-
 # Enable autojump
 . /usr/share/autojump/autojump.sh
 
@@ -111,3 +109,6 @@ export ORACLE_HOME=/usr/lib/oracle/18.5/client64
 #export ORACLE_BASE=/u01/app/oracle
 export LD_LIBRARY_PATH=$ORACLE_HOME/lib:$LD_LIBRARY_PATH
 #export PATH=$ORACLE_HOME/bin:$PATH
+
+export PATH=$PATH:~/.dotfiles/scripts
+
