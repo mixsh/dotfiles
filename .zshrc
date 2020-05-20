@@ -102,6 +102,3 @@ export ASPNETCORE_ENVIRONMENT=Development
 # Enable autojump
 . /usr/share/autojump/autojump.sh
 
-export PATH=$PATH:$HOME/.dotfiles/scripts:$HOME/.dotnet
-export DOTNET_ROOT=$HOME/.dotnet
-
