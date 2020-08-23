@@ -31,5 +31,5 @@ export DOTNET_ROOT=$HOME/.dotnet
 
 export GTK_IM_MODULE=cedilla
 export QT_IM_MODULE=cedilla
-export LC_CTYPE=pt_BR.UTF-8
+#export LC_CTYPE=pt_BR.UTF-8
 

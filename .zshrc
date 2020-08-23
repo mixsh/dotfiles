@@ -88,7 +88,6 @@ source $ZSH/oh-my-zsh.sh
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
-export ASPNETCORE_ENVIRONMENT=Development
 
 export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64
 
