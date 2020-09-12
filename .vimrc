@@ -12,7 +12,8 @@ set shiftwidth=4
 set expandtab
 
 " Add line numbers
-set number 
+set number
+set relativenumber
 
 set path+=**
 set wildmenu
@@ -23,7 +24,6 @@ command! MakeTags !ctags -R .
 nnoremap <Leader>o o<Esc>
 nnoremap <Leader>O O<Esc>
 
-set relativenumber
 
 " CTRL-J breaks a line in normal mode
 nnoremap <NL> i<CR><ESC>

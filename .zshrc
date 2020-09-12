@@ -99,6 +99,7 @@ export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 alias python="python3"
+alias v="nvim"
 
 # Enable autojump
 . /usr/share/autojump/autojump.sh

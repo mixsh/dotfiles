@@ -1,4 +1,11 @@
-cd ~/ && rm -f ~/.vimrc && ln -s ~/.dotfiles/.vimrc .vimrc
-cd ~/ && rm -f ~/.Xresources && ln -s ~/.dotfiles/.Xresources .Xresources
-cd ~/ && rm -f ~/.zshrc && ln -s ~/.dotfiles/.zshrc .zshrc
-cd ~/ && rm -f ~/.profile && ln -s ~/.dotfiles/.profile .profile
+#!/bin/bash
+
+pushd ~/
+rm -f .vimrc && ln -s .dotfiles/.vimrc .vimrc
+rm -f .Xresources && ln -s .dotfiles/.Xresources .Xresources
+rm -f .zshrc && ln -s .dotfiles/.zshrc .zshrc
+rm -f .profile && ln -s .dotfiles/.profile .profile
+
+rm -rf .config/nvim && cp -R .dotfiles/.config/nvim .config/nvim
+popd
+
