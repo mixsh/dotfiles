@@ -104,3 +104,7 @@ alias v="nvim"
 # Enable autojump
 . /usr/share/autojump/autojump.sh
 
+# VTE stuff for tilix
+if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
+  source /etc/profile.d/vte.sh
+fi

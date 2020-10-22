@@ -33,3 +33,7 @@ export GTK_IM_MODULE=cedilla
 export QT_IM_MODULE=cedilla
 #export LC_CTYPE=pt_BR.UTF-8
 
+# Disable caps lock and let it be "Enter"
+setxkbmap -option '' -option 'ctrl:nocaps'
+xmodmap -e "keycode 66 = KP_Enter"
+
