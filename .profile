@@ -36,4 +36,3 @@ export QT_IM_MODULE=cedilla
 # Disable caps lock and let it be "Enter"
 setxkbmap -option '' -option 'ctrl:nocaps'
 xmodmap -e "keycode 66 = KP_Enter"
-

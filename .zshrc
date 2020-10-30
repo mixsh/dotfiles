@@ -98,13 +98,14 @@ export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64
 #
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
-alias python="python3"
 alias v="nvim"
 
 # Enable autojump
 . /usr/share/autojump/autojump.sh
 
-# VTE stuff for tilix
-if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
-  source /etc/profile.d/vte.sh
-fi
+# HSTR configuration
+alias hh=hstr                    # hh to be alias for hstr
+setopt histignorespace           # skip cmds w/ leading space from history
+export HSTR_CONFIG=hicolor       # get more colors
+bindkey -s "\C-r" "\C-a hstr -- \C-j"     # bind hstr to Ctrl-r (for Vi mode check doc)
+

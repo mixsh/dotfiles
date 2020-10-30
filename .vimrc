@@ -24,6 +24,8 @@ command! MakeTags !ctags -R .
 nnoremap <Leader>o o<Esc>
 nnoremap <Leader>O O<Esc>
 
+" Create command to replace all occurrences under cursor
+nnoremap <Leader>s :%s/\<<C-r><C-w>\>//g<Left><Left>
 
 " CTRL-J breaks a line in normal mode
 nnoremap <NL> i<CR><ESC>

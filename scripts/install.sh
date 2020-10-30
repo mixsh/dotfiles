@@ -4,9 +4,7 @@ sudo apt install -y ctags
 sudo apt install -y tmux
 sudo apt install -y autojump
 sudo apt install -y htop
-
-# visual theme config tools
-sudo apt-get install -y lxappearance gtk-chtheme qt4-qtconfig
+sudo apt install -y hstr
 
 # zsh + oh-my-zsh
 sudo apt install -y zsh
