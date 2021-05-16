@@ -89,7 +89,7 @@ source $ZSH/oh-my-zsh.sh
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
-export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64
+# export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -101,11 +101,11 @@ export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64
 alias v="nvim"
 
 # Enable autojump
-. /usr/share/autojump/autojump.sh
+# . /usr/share/autojump/autojump.sh
 
 # HSTR configuration
-alias hh=hstr                    # hh to be alias for hstr
-setopt histignorespace           # skip cmds w/ leading space from history
-export HSTR_CONFIG=hicolor       # get more colors
-bindkey -s "\C-r" "\C-a hstr -- \C-j"     # bind hstr to Ctrl-r (for Vi mode check doc)
+#alias hh=hstr                    # hh to be alias for hstr
+#setopt histignorespace           # skip cmds w/ leading space from history
+#export HSTR_CONFIG=hicolor       # get more colors
+#bindkey -s "\C-r" "\C-a hstr -- \C-j"     # bind hstr to Ctrl-r (for Vi mode check doc)
 

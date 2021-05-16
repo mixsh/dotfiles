@@ -26,13 +26,5 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
-export PATH=$PATH:/.cargo/bin:$HOME/.dotfiles/scripts:$HOME/.dotnet
-export DOTNET_ROOT=$HOME/.dotnet
-
-export GTK_IM_MODULE=cedilla
-export QT_IM_MODULE=cedilla
-#export LC_CTYPE=pt_BR.UTF-8
-
-# Disable caps lock and let it be "Enter"
-setxkbmap -option '' -option 'ctrl:nocaps'
-xmodmap -e "keycode 66 = KP_Enter"
+export PATH=$PATH:/.cargo/bin:$HOME/.dotfiles/scripts:$HOME/.dotnet:$HOME/.dotnet/tools:/opt/Rider/bin
+#export DOTNET_ROOT=$HOME/.dotnet
