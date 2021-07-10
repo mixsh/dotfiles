@@ -17,6 +17,8 @@ Plug 'junegunn/fzf.vim'
 
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 
+" Find in files
+Plug 'dyng/ctrlsf.vim'
 
 " Python
 Plug 'deoplete-plugins/deoplete-jedi'
@@ -25,8 +27,11 @@ call plug#end()
 
 :map <C-b> :NERDTreeToggle<CR>
 :map <C-p> :GFiles<CR>
-:map <C-f> :Files<CR>
 
+" :map <C-f> :Files<CR>
+nmap     <C-F>f <Plug>CtrlSFPrompt                  
+nmap     <C-F>n <Plug>CtrlSFCwordPath
+nmap     <C-F>p <Plug>CtrlSFPwordPath
 
 " plugin config
 
